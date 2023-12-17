@@ -62,9 +62,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Node.js & React implementation for project development**
-- **Components used for development**
-- **SPA development**
+- **Ruby on Rails implementation for project development**
+- **Postgresql database instance**
 - **The application is consuming endpoints created with another project called frontend test application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,8 +76,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- You need to have NodeJS installed
-- A Web Browser (Google Chrome, Firefox, etc)
+- You need to have Ruby on Rails installed
+- A Postgresql database engine instance
 - A Code Editor (Notepad++, VSCode, etc)
 
 ### Setup
@@ -93,10 +92,14 @@ cd your folder name
 
 ### Install
 
+You may change your database credetials (username and password) on config/database.yml
+
 Intall required dependencies:
 
 ```
-npm install
+bundle install
+rails db:create
+rails db:migrate
 ```
 
 ### Usage
@@ -104,7 +107,7 @@ npm install
 To run the project, execute the following command:
 
 ```
-npm start
+rails server
 ```
 
 ### Run tests
