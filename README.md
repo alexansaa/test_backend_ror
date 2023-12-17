@@ -40,9 +40,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-    <li><a href="https://nodejs.org/es">Node.js</a></li>
-    <li><a href="https://es.react.dev/">React</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby On Rails</a></li>
   </ul>
 </details>
 
@@ -56,7 +54,7 @@
 <details>
 <summary>Database</summary>
   <ul>
-    <li>N/A</li>
+    <li><a href="https://www.postgresql.org/">Postgresql</a></li>
   </ul>
 </details>
 
